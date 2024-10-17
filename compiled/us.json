@@ -1,0 +1,85 @@
+{
+  "type": "PORTFOLIO",
+  "name": "US",
+  "children": [
+    [
+      {
+        "type": "EQUITY",
+        "ticker": "VOO"
+      },
+      "0.5"
+    ],
+    [
+      {
+        "type": "EQUITY",
+        "ticker": "VXF"
+      },
+      "0.1"
+    ],
+    [
+      {
+        "type": "PORTFOLIO",
+        "name": "US Stocks",
+        "children": [
+          [
+            {
+              "type": "EQUITY",
+              "ticker": "AAPL"
+            },
+            "0.22"
+          ],
+          [
+            {
+              "type": "EQUITY",
+              "ticker": "AMD"
+            },
+            "0.22"
+          ],
+          [
+            {
+              "type": "EQUITY",
+              "ticker": "AMZN"
+            },
+            "0.04"
+          ],
+          [
+            {
+              "type": "EQUITY",
+              "ticker": "MSFT"
+            },
+            "0.05"
+          ],
+          [
+            {
+              "type": "EQUITY",
+              "ticker": "NVDA"
+            },
+            "0.23"
+          ],
+          [
+            {
+              "type": "EQUITY",
+              "ticker": "RIVN"
+            },
+            "0.12"
+          ],
+          [
+            {
+              "type": "EQUITY",
+              "ticker": "TSLA"
+            },
+            "0.04"
+          ],
+          [
+            {
+              "type": "EQUITY",
+              "ticker": "TSM"
+            },
+            "0.08"
+          ]
+        ]
+      },
+      "0.4"
+    ]
+  ]
+}
